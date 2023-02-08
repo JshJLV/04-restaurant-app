@@ -3,7 +3,7 @@ import imgCopasVino from "../../assets/img/copas-vino.jpg";
 
 function HistorySection() {
   return (
-    <div className="container mx-auto flex flex-col xl:flex-row px-14 py-6">
+    <div className="container mx-auto flex flex-col xl:flex-row px-10 py-6">
         <div className="xl:w-2/4 xl:pr-6">
           <h1 className="font-bold text-5xl my-6">Historia</h1>
           <p className="text-lg text-justify">

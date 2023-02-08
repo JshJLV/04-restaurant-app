@@ -4,7 +4,7 @@ import imgRestaurante from "../../assets/img/restaurant.jpg"
 
 function FormContact() {
   return (
-    <div className="container mx-auto p-14 flex flex-col xl:flex-row">
+    <div className="container mx-auto p-8 flex flex-col xl:flex-row">
       <div className="mb-10 xl:mb-0 xl:flex-1 xl:pr-4">
         <h1 className="font-bold text-5xl mb-8">Datos de contacto</h1>
         <p className="text-lg text-justify">

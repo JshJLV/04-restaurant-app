@@ -1,11 +1,13 @@
-import Jumbotron from "./homepage/Jumbotron";
+import Jumbotron from "../components/Jumbotron";
+// import ImgCostillas from "../assets/img/costillas.jpg"
+import ImgCostillas from "../assets/img/costillas.jpg"
 import HistorySection from "./homepage/HistorySection";
 import FormContact from "./homepage/FormContact";
 
 function HomePage() {
   return (
-    <main className="mx-auto">
-      <Jumbotron />
+    <main>
+      <Jumbotron img={ImgCostillas}/>
       <HistorySection />
       <FormContact />
     </main>
